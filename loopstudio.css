@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#background {
+  background-image: url('https://res.cloudinary.com/diigc89rc/image/upload/v1724939927/image-hero_u3t1kb.jpg');
+}
+
+
+nav {
+  flex: 1;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#background h1 {
+    text-transform: uppercase;
+    color: #fff;
+    border: solid;
+    border-color: #fff;
+}
+
+.body img{
+  display: flex;
+  margin-top: 60px;
+}
